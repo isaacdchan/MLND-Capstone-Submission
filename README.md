@@ -1,87 +1,23 @@
-# Project Title
+# MLND Capstone
 
-One Paragraph of project description goes here
+Final capstone project for Udacity's Machine Learning Nanodegree.
+
+### Labeling Standardized Videogame Objects Using Computer Vision and Clustering
+
+In this project I attempt to take advantage of the predictability and uniformity of objects and video games to train a classifier that doesn't require exorbitant amounts of data.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The pdf's included in this repor are my initial project proposal and a report describing my methodology and results. 
+screen_label.py is the final classifier script that uses functions stored in the utils.py file
+cluster_bfmatch.py, cluster_finder_single.py, kp_generator.py, utils.py are all scripts for the computer vision based benchmark model I created
+The images folder contains the testing images I used to test accuracy and tweak screen_label.py. It also contains a dictionary of template images used by the benchmark model
 
 ### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Python 3.5 or higher
+* OpenCV (known as cv2 once downloaded) - opencv-python if installing from command line
+* matplotlib
+* numpy
+* scikit-learn
+* PIL (python imaging library)
+* operator
