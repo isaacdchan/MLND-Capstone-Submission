@@ -5,6 +5,12 @@ from sklearn.cluster import KMeans
 from sklearn.neighbors import LocalOutlierFactor
 from utils_old import coord_generator
 
+# script to identify which of the minions on the test image corresponds to which centroid
+# in an image with 5 minions, manually set n_clusters in the kmeans object to 5
+# to find which minion each centroid is, modify the centroid variable to desired centroid
+# the cv2.circle function will display the test image with a circle around the minion that corresponds to that centroid (hopefully)
+# for more explanation on all inbetween code, see cluster_bfmatch.py for a more detailed explanation
+
 img1 = cv2.imread('images\\img_test2.jpg', 1)
 orb = cv2.ORB_create()
 kp1, des1 = orb.detectAndCompute(img1, None)
