@@ -12,6 +12,7 @@ The pdf's included in this repor are my initial project proposal and a report de
 screen_label.py is the final classifier script that uses functions stored in the utils.py file
 cluster_bfmatch.py, cluster_finder_single.py, kp_generator.py, utils.py are all scripts for the computer vision based benchmark model I created
 The images folder contains the testing images I used to test accuracy and tweak screen_label.py. It also contains a dictionary of template images used by the benchmark model
+Let me know if you run into any bugs and I can try to walk you through it
 
 ### Prerequisites
 * Python 3.5 or higher
