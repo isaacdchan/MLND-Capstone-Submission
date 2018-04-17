@@ -10,7 +10,7 @@ img1 = cv2.imread('images\\img_test1.jpg', 0)
 # import testing image
 orb = cv2.ORB_create()
 kpX, desX = orb.detectAndCompute(img1, None)
-# import orb object (essentially SIFT) and store KPs and descriptors in the KPX and desX arrays
+# import orb object (augemented form of SIFT) and store KPs and descriptors in the KPX and desX arrays
 
 
 desX_list = []
